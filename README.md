@@ -1,3 +1,5 @@
+ссылка на репозиторий: https://github.com/Tiafk/posmotri-v-okno-fd
+
 Яндекс Практикум 2-ой спринт
 - Работа с checkbox, input, focus-visible 
 - Добавление стилей в уже готовую разметку
