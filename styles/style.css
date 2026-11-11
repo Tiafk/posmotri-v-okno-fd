@@ -112,6 +112,11 @@ ol {
   border: 0;
 }
 
+.search-form__fieldset:first-child {
+  width: 100%;
+  max-width: 225px;
+}
+
 /* стилизация чекбоксов*/
 .search-form__checkbox-list {
   display: flex;
@@ -125,6 +130,7 @@ ol {
   gap: 5px;
   cursor: pointer;
   user-select: none;
+  width: 100%;
 }
 
 .search-form__label:hover .search-form__label-text {
@@ -172,9 +178,10 @@ ol {
   appearance: none;
 
   font-size: 18px;
-  
+
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
+  width: 100%;
 }
 
 .search-form__textfield::placeholder {
@@ -261,7 +268,6 @@ ol {
   outline: 1px solid #fff;
 }
 
-
 /* стили текста в карточках */
 
 .content__video-card-title {
@@ -303,12 +309,13 @@ ol {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
+  padding: 6px 0;
 }
 
 .search-form__submit-button {
   width: 100%;
   max-width: 194px;
-  align-self: center;
+  align-self: flex-end;
 }
 
 .more-button {
